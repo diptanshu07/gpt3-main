@@ -22,8 +22,8 @@ const Navbar = () => {
           <p><a href='#blog'>Library</a></p>
         </div>  
         <div className='gpt3__navbar-sign'>
-          <p><a href="/" >Sign In</a></p>
-          <button type='button'>Sign up</button>
+        <button type='button'>Sign In</button>
+          <button type='button'>Sign Up</button>
         </div>
     </div>
     <div className='gpt3__navbar-menu'>
