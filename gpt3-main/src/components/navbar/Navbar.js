@@ -2,7 +2,6 @@ import React ,{ useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/logo.png';
 import './navbar.css'
-import FormRegistration from '../Registration/FormRegistration';
 
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
           <p><a href='#blog'>Library</a></p>
         </div>  
         <div className='gpt3__navbar-sign'>
-        <button type='button'>Sign In</button>
+          <button type='button'>Sign In</button>
           <button type='button'>Sign Up</button>
         </div>
     </div>
@@ -43,13 +42,13 @@ const Navbar = () => {
         </div>
         <div className='gpt3__navbar-menu_container-links-sign'>
           <p>Sign in</p>
-          <button type='button'>Sign up</button>
+          <button type='button' >Sign up</button>
         </div>
       </div>
       )}
     </div>
     </div>
-);
+  );
 };
 
 export default Navbar

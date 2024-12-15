@@ -7,10 +7,10 @@ import './App.css';
 const App = () => {
   return (
     <div className='App'>
-    <div className='gradient__bg'>
-      <Navbar/>
-      <Header/>
-    </div>
+      <div className='gradient__bg'>
+        <Navbar/>
+        <Header/>
+      </div>
       <Brand/>
       <WhatGPT3/>
       <Features/>
@@ -18,6 +18,10 @@ const App = () => {
       <CTA/>
       <Blog/>
       <Footer/>
+      <Routes>
+        <Route path = "/signin" element = {<Signin/>} />
+        <Route path = "/signup" element = {<Signup/>} />
+      </Routes>
     </div>
   )
 }
