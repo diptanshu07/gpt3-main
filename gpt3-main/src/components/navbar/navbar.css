@@ -20,7 +20,8 @@
 
 .gpt3__navbar-links_logo img{
     width: 62px;
-    height: 16px;
+    height: 50px;
+    border-radius: 20%;
 }
 
 .gpt3__navbar-links_container{ 
@@ -35,8 +36,12 @@
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    padding: 20px 40px;
-    font-size: 1 rem;
+}
+
+.gpt3__navbar-sign button{
+    padding: 0.2rem 0.5rem;
+    background-color: #cc34eb;
+    
 }
 
 .gpt3__navbar-links_container p,
@@ -53,7 +58,8 @@
 }
 
 .gpt3__navbar-links_container a{
-    color:#fff
+    color:#fff;
+    text-decoration: none;
 }
 
 .gpt3__navbar-sign button,
@@ -64,7 +70,7 @@
    font-weight: 500;
    font-size: 18px;
    line-height: 25px;
-   background: #FF4820;
+   background: #cc34eb;
    border-radius:5px;
 
    border:0;
