@@ -8,7 +8,7 @@ const Header = () => {
     <div className='gpt3__header section__padding' id='home'>
       <div className='gpt3__header-content'>
         <h1 className='gradient__text'>
-          Let's Build Something amazing with Clever!
+          Let's Build Something amazing with Lekhak!
         </h1>
         <p>Unlock the future of content creation with our innovative platform designed to make generating, managing, and publishing content effortless. With cutting-edge AI integration, an intuitive interface, and seamless CMS capabilities, this tool is built to empower creators, marketers, and businesses alike. Say goodbye to content bottlenecks and hello to creativity without limits</p>     
         <div className='gpt3__header-content__input'>

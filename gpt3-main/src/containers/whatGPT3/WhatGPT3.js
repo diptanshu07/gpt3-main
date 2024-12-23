@@ -7,7 +7,7 @@ const WhatGPT3 = () => {
   return (
     <div className='gpt3__whatgpt3 section__margin' id='wgpt3'>
      <div className='gpt3__whatgpt3-feature'>
-        <Feature title="What is Clever" text="Empowers teams to produce high-quality content at unprecedented speed and scale. Experience a paradigm shift in content production that removes bottlenecks, codifies best practices, and gets you up and running.<br></br> By leveraging AI-driven workflows, marketing teams can streamline the entire content creation process from ideation to publication." />
+        <Feature title="About Lekhak" text="Empowers teams to produce high-quality content at unprecedented speed and scale. Experience a paradigm shift in content production that removes bottlenecks, codifies best practices, and gets you up and running.By leveraging AI-driven workflows, marketing teams can streamline the entire content creation process from ideation to publication." />
      </div>
      <div className='gpt3__whatgpt3-heading'>
         <h1 className='gradient__text'>The possibilities are beyond your imagination</h1>

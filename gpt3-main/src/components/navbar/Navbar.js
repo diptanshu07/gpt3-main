@@ -1,6 +1,6 @@
 import React ,{ useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/lekhak.png';
 import './navbar.css'
 
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         </div>
         <div className='gpt3__navbar-links_container'>
           <p><a href='#home'>Home</a></p>
-          <p><a href='#wgpt3'>What is Clever?</a></p>
+          <p><a href='#wgpt3'>What is Lekhak?</a></p>
           <p><a href='#possibility'>Future</a></p>
           <p><a href='#features'>Case Study</a></p>
           <p><a href='#blog'>Library</a></p>
@@ -35,7 +35,7 @@ const Navbar = () => {
       <div className='gpt3__navbar-menu_container scale-up-center'>
         <div className='gpt3__navbar-menu_container-links'>
         <p><a href='#home'>Home</a></p>
-        <p><a href='#wgpt3'>What is GPT3?</a></p>
+        <p><a href='#wgpt3'>What is Lekhak?</a></p>
         <p><a href='#possibility'>Open AI</a></p>
         <p><a href='#features'>Case Study</a></p>
         <p><a href='#blog'>Library</a></p>
